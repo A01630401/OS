@@ -2,7 +2,7 @@
 ## Objetivo:
 Compilar y correr xv6
 
-##Herramientas
+## Herramientas
 gcc -> compilador
 git -> compartir el codigo
 make -> automatizar
