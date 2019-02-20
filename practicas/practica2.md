@@ -12,10 +12,10 @@ gcc
 1) Como se crean nuevos procesos
 + Un programa padre (sh.c) ejecuta la llamada a sistema fork
 + La llamada a sistema fork clona al proceso padre
-+ El proceso hijo madna a llamar a exec para ejecutar otro codigo
++ El proceso hijo manda a llamar a exec para ejecutar otro codigo
 
 ## Que aprendi
-Aprendi que para poder tener un proceso
+Aprendi que para poder crear un proceso primero se necesita clonar al proceso de donde este fue ejecutado, dejando a este como proceso padre, despues haciendo el exec para del codigo del nuevo proceso se quede en el proceso clonado para que este ya empiece como el nuevo proceso. Como se toma el proceso padre para poder empezar otro siempre va a estar como el primer padre el proceso de init, ya que este es el que primero comienza en una computadora.
 
 ## Url del commit
 https://github.com/A01630401/OS/commit/4b1394f3dc64dd3411d28b27b2ab804eaace0ebf
