@@ -14,11 +14,11 @@ gcc
 + La llamada a sistema fork clona al proceso padre
 + El proceso hijo madna a llamar a exec para ejecutar otro codigo
 
-
 ## Que aprendi
-
+Aprendi que para poder tener un proceso
 
 ## Url del commit
+https://github.com/A01630401/OS/commit/4b1394f3dc64dd3411d28b27b2ab804eaace0ebf
 
 ## Como se relaciona con los conceptos anteriores
 Se usan las llamadas al sistema para que se pueda hacer uso de la memoria RAM, usar el sistema de almacenamiento para que se ecuentre el codigo que se va a usar en el exec.
