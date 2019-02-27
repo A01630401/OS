@@ -25,9 +25,9 @@ git
 + Tiene un estado:
   + Corriendo
   + Durmiendo (Listo)
-++ Espera
-++ Completado
-++ Zombie
+  + Espera
+  + Completado
+  + Zombie
 
 2) Programa init
 + Es el proceso encargado de inicializar el SO para dejarlo listo para usarse
