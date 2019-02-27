@@ -1,14 +1,14 @@
-#Objetivo
+# Objetivo
 Modificar al programa init para que muestre un programa de bienvenida.
 
-#Herramientas
+# Herramientas
 gcc
 
 make
 
 git
 
-#Conceptos
+# Conceptos
 
 1) Proceso
 
@@ -28,6 +28,10 @@ git
 ++ Espera
 ++ Completado
 ++ Zombie
+
+2) Programa init
++ Es el proceso encargado de inicializar el SO para dejarlo listo para usarse
++ Es el unico proceso que crea el SO
 
 # Que aprendi
 
