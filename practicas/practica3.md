@@ -34,6 +34,7 @@ git
 + Es el unico proceso que crea el SO
 
 # Que aprendi
+Aprendi que cada proceso tiene un stack, un heap y el código del programa que se quiere ejecutar. En el stack se ponen las variables que se van a utilizar y las funciones con sus propias variables, cuando una función se termina el return limpia la memoria y regresa el dato al CPU para que este se pueda quedar en la memoria donde fue llamada la función. En el heap se crean los objetos por lo que en el heap están las direcciones de memoria que se pidieron, dependiendo del tamaño que se haya pedido, se necesita limpiar la memoria de estos para que después se use por otros.
 
 # Url del commit
 https://github.com/A01630401/OS/commit/5754486a77d43f0ed3ba37e750e6c1d7fee137d3
