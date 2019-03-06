@@ -1,6 +1,8 @@
 ## Objetivo
 Hacer un planificador de procesos basadps en prioridades.
-El proceos a mayor prioridad se ejecuta primero.
+
+El proceso a mayor prioridad se ejecuta primero.
+
 Si hay dos o mas con prioridades iguales el primero de la lista.
 
 ## Herramientas
