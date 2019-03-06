@@ -12,17 +12,17 @@ git
 
 ## Conceptos
 1) Proceso (va a ser pregunta de examen)
-+ Instancia de un programa.
+  + Instancia de un programa.
 
 2) Planificacion de procesos:
-+ Es el mecanismo que el SO tiene para asignarle el CPU a un proceso.
+  + Es el mecanismo que el SO tiene para asignarle el CPU a un proceso.
 
 3) Estados de un proceso
 
 4) Cambio de contexto:
-+ Ocurre cuando el CPU deja de ejecutar un proceso para ejecutar otro.
-+ Guardar el PC y la direccion del stack del proceso actual.
-+ Restaurar el PC y la direccion del nuevo proceso.
+  + Ocurre cuando el CPU deja de ejecutar un proceso para ejecutar otro.
+  + Guardar el PC y la direccion del stack del proceso actual.
+  + Restaurar el PC y la direccion del nuevo proceso.
 
 ## Que aprendi
 
