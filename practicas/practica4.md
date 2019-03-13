@@ -1,6 +1,8 @@
 ## Objetivo
 Hacer un planificador de procesos basadps en prioridades.
-El proceos a mayor prioridad se ejecuta primero.
+
+El proceso a mayor prioridad se ejecuta primero.
+
 Si hay dos o mas con prioridades iguales el primero de la lista.
 
 ## Herramientas
@@ -28,6 +30,7 @@ git
 
 
 ## Url del commit
+1) https://github.com/A01630401/OS/commit/c02cc59428629ffc4eca2eb0e5ec06536cf27b59
 
 ## Como se relaciona con los conceptos anteriores
 Llamadas a sistema, procesos (desarrollar)
