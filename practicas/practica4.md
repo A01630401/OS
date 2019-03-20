@@ -31,6 +31,7 @@ git
 
 ## Url del commit
 1) https://github.com/A01630401/OS/commit/c02cc59428629ffc4eca2eb0e5ec06536cf27b59
+2) https://github.com/A01630401/OS/commit/58b93391f5654f75cb841b9560720bbc25a90f9a
 
 ## Como se relaciona con los conceptos anteriores
 Llamadas a sistema, procesos (desarrollar)
