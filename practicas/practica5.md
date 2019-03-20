@@ -1,4 +1,4 @@
-# ObjetivoÑ
+# Objetivo
 Investigar y practicar diferentes IPC.
 + Señales
 + Pipes
