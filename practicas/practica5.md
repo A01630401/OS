@@ -10,7 +10,7 @@ gcc
 # Conceptos:
 
 + Procesos cooperativos:
-  + dos o mas procesos que se comunicacn en un IPC
+  + dos o mas procesos que se comunican en un IPC
   
 # Url del commit
 
