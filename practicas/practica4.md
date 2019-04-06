@@ -27,7 +27,7 @@ git
    + Restaurar el PC y la direccion del nuevo proceso.
 
 ## Que aprendi
-
+Con esta practica aprendi que hay procedimientos que hace el sistema operativo para que se puedan ejecutar varios procesos en concurrencia, haciendo que se ejecuten por partes por el CPU y dandoles cierto tiempo de CPU a cada proceso, con el planificador que implementamos se puso la prioridad a cada proceso y asi se puede decidir cual sera el que se ponga primero en CPU y cual sera el siguiente, haciendo que se ejecuten procesos mas importantes al principio y que les toque asi mas tiempo de CPU que procesos que no son tan importantes y pasan a segundo plano, un problema que tiene el planificador que implementamos es que si hay un proceso con una gran prioridad este se va a hacer hasta que se termine, mientras que un proceso con poca prioridad puede ser que nunca pase a CPU y muero por starvation.
 
 ## Url del commit
 1) https://github.com/A01630401/OS/commit/c02cc59428629ffc4eca2eb0e5ec06536cf27b59
