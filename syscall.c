@@ -107,6 +107,7 @@ extern int sys_shutdown(void);
 extern int sys_reboot(void);
 extern int sys_setpriority(void);
 extern int sys_getpriority(void);
+extern int sys_date(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -134,15 +135,21 @@ static int (*syscalls[])(void) = {
 [SYS_reboot]  sys_reboot,
 [SYS_setpriority] sys_setpriority,
 [SYS_getpriority] sys_getpriority,
+[SYS_date]	  sys_date,
 };
 
 void
 syscall(void)
 {
+  char *syscalled[25] = {"fork", "exit", "wait", "pipe", "read", "kill", "exec", "fstat", "chdir", "dup", "getpid", "sbrk", "sleep", "uptime", "open", "write", "mknod", "unlink", "link", "mkdir", "close", "shutdown", "reboot", "setPriority", "getPriority"};
+	
   int num;
   struct proc *curproc = myproc();
 
   num = curproc->tf->eax;
+
+  cprintf(" %s -> %d\n", syscalled[num], num);
+	
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
     curproc->tf->eax = syscalls[num]();
   } else {
