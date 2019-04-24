@@ -33,6 +33,6 @@ git
   
 # Url del commit
 1. https://github.com/A01630401/OS/commit/e5789a639eef49c1ec1437581e56b66d1a074a20
-2. 
+2. https://github.com/A01630401/OS/commit/1b895228bd3734d82f64f4f0f0642cd88b74ef33
 
 # Que aprendi:
