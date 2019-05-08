@@ -33,6 +33,7 @@ git
   
 # Url del commit
 1. https://github.com/A01630401/OS/commit/e5789a639eef49c1ec1437581e56b66d1a074a20
-2. 
+2. https://github.com/A01630401/OS/commit/1b895228bd3734d82f64f4f0f0642cd88b74ef33
 
 # Que aprendi:
+Lo que aprendi con esta practica es la forma en la que funcionan los threads, los cuales son una alternativa mas comoda para crear varios procesos, ya que estos tienen una facil comunicacion por el hecho de que comparten el heap, mientras que el stack y el codigo solo tiene la parte que necesita este, haciendolo asi un elemento ligero y facil de controlor, pero tiene sus desventajas que es el buen manejo de los recursos para que se hagan las cosas en el orden que se requiere por lo que se usan locks asi como semaforos. Al final de cuentas estos se usan para que se puedan hacer varias cosas a la vez en un proceso y asi poder hacerlo mas rapido y eficiente, esto es posible ya que las computadoras actuales tinen normalmente mas de un nucleo por lo que puedan hacer varias operaciones a la vez.
