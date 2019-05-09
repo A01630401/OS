@@ -19,3 +19,4 @@ git
 https://github.com/A01630401/OS/commit/1f77fc3cfcbd4d9fc999be8ef10cd4f46de52a14
 
 # Que aprendi:
+Lo que aprendi en esta practica fue como funciona el sistema de archivos de un sistema operativo, como para poder tener archivos muy grandes estos se tienen que segmentar y poner referencias para cada segmento de estos. Tambien aprendi que un directorio no es otra cosa que otro tipo de archivo con informacion de los archivos que tienen dentro y referencias a estos, asi como referencias a si mismo y al directorio padre de este para poder navegar entre ellos.
